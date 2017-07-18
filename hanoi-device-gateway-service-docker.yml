@@ -14,4 +14,4 @@ zuul:
   routes:
     hanoi-device-agent-service: /agent/**
     hanoi-device-attest-service: /attest/**
-    hanoi-device-profile-service: /segd/**
+    hanoi-device-profile-service: /profile/**
