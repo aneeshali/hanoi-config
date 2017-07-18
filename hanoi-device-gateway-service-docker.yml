@@ -1,8 +1,0 @@
-
-zuul:
-  ignored-services: '*'
-  ignoredPatterns: /**/api/**
-  routes:
-    hanoi-device-agent-service: /agent/**
-    hanoi-device-attest-service: /attest/**
-    hanoi-device-profile-service: /profile/**
