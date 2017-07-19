@@ -6,4 +6,4 @@ security:
     enabled: false
 management:
   security:
-    enabled: false  
+    enabled: true  
