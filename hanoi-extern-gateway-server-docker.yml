@@ -1,2 +1,9 @@
 
 foo: bar
+
+zuul:
+  ignored-services: '*'
+  ignoredPatterns: /**/api/**
+  routes:
+    hanoi-extern-reseller-server: /reseller/**
+    hanoi-extern-profile-server: /profile/**
